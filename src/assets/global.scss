@@ -1,0 +1,48 @@
+@import './reset.css';
+
+@keyframes show {
+  0%{
+    opacity: 0;
+    top: -40px;
+  }
+  100%{
+    opacity: 1;
+    top: 0;
+  }
+}
+
+body{
+  background-color: #121414;
+  font-family: 'Golos', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  .main-root{
+    display: flex;
+    main{
+      width: 100%;
+      .page{
+        position: relative;
+        top: -40px;
+        opacity: 0;
+        animation: show .7s ease;
+        animation-fill-mode: forwards;
+      }
+    }
+  }
+  .global-wrapper{
+    max-width: 1438px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    b.content-title{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 120%;
+      color: #FFFFFF;
+      opacity: 0.9;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+  }
+}

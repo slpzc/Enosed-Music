@@ -1,0 +1,44 @@
+.swiper-slide{
+  max-width: 220px !important;
+  width: 100%;
+  position: relative;
+  .preview-block{
+    p{
+      position: absolute;
+      top: 15px;
+      left: 13px;
+      color: white;
+    }
+    .preview{
+      height: 220px;
+      max-width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('http://sukhanovbrothers.com/wp-content/uploads/2016/11/sukhanov-brothers-cd-design-cover-0.jpg');
+    }
+  }
+  .content{
+    padding-top: 14px;
+    b{
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 120%;
+      color: #FFFFFF;
+    }
+    .description{
+      padding-top: 7px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      color: #FFFFFF;
+      opacity: 0.2;
+    }
+    .preview-by{
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 180%;
+      color: rgba(255, 255, 255, 0.6);
+      opacity: 0.2;
+    }
+  }
+}
